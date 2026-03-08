@@ -1,4 +1,4 @@
-const API_KEY = "179d641dd1af2c4da0b9141f078eb3af"; 
+const API_KEY = "YOUR_API_KEY"; 
 const btn = document.getElementById("get-weather-btn");
 const cityInput = document.getElementById("city-input");
 const container = document.getElementById("weather-container");
@@ -67,4 +67,5 @@ btn.addEventListener("click", () => {
   } else {
     alert("Please enter a city name.");
   }
+
 });
